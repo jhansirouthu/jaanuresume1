@@ -1,0 +1,133 @@
+body{
+  background-image: url(jaanu2.jpg);
+}
+.flexparent{
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+
+}
+.child1{
+  width: 80%;
+  padding: 2%;
+background-color: cyan;
+border-radius: 5%;
+  margin: 2%;
+  border:5px solid black;
+}
+.child2{
+    padding:2%;
+    border:2px solid black;
+    margin: 2%;
+    width: 80%;
+    background-color: cyan;
+  }
+  img{
+    display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 80%;
+
+       border-radius: 50%;
+   }
+
+@media  screen and(min-width:481px)and(max-width:768px) {
+
+  .flexparent{
+    display: flex;
+flex-direction:column;
+    justify-content: center;
+  }
+  .flexparent>div{
+    margin: 2%;
+    padding:2%;
+
+  }
+  .child1{
+
+
+    margin: 2%;
+    border:2px solid red;
+  }
+  .child2{
+
+      border:2px solid red;
+
+      width: 80%;
+    }
+    img{
+
+      display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 80%;
+
+     }
+
+}@media screen and(min-width:768px)and(max-width:938px) {
+  .flexparent{
+    display: flex;
+flex-direction:column;
+    justify-content: center;
+  }
+  .flexparent>div{
+    margin: 2%;
+    padding:2%;
+  }
+  .child1{
+    width: 80%;
+    padding: 2%;
+    margin: 2%;
+    border:2px solid red;
+  }
+  .child2{
+      padding: 2%;
+      border:2px solid red;
+      margin: 2%;
+
+      width: 80%;
+    }
+    img{
+
+      display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 80%;
+
+     }
+
+}@media screen and(min-width:938px)and(max-width:1024px) {
+  .flexparent{
+    display: flex;
+flex-direction:row;
+    justify-content: center;
+  }
+  .flexparent>div{
+    margin: 2%;
+    padding:2%;
+
+
+
+  .child1{
+    width: 80%;
+    padding: 2%;
+    margin: 2%;
+    border:2px solid red;
+  }
+  .child2{
+      padding: 2%;
+      border:2px solid red;
+      margin: 2%;
+
+      width: 80%;
+    }
+    img{
+
+      display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 80%;
+
+     }
+
+}

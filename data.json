@@ -1,0 +1,50 @@
+{
+  "basics":{
+    "name":"jhansi",
+    "email":"jaanujhansi28@gmail.com",
+    "mobile":"9848022338"
+  },
+  "career":{
+    "info":"To ensue a highly profitable career, seeking for a challenging job and healthy work environment where I can utilize my skills, experience and knowledge efficiently for organizational goal"
+  },
+  "education":[{
+    "degree":"b.tech(cse)"  ,
+    "institute":"avanthi",
+    "data":["2015-19","76%"]
+},
+{
+  "degree":"intermediate(mpc)"  ,
+  "institute":"narayana junior college",
+  "data":["2013-15","88%"]
+},
+{
+  "degree":"scc"  ,
+  "institute":"govt school",
+  "data":["2012-13","93%"]
+}
+],
+"skills":[
+  {
+    "title":"programming languages",
+    "info":["C","java","python","R"]
+  },
+{
+  "title":"Database",
+  "info":["mongoDB","mysql","oracle"]
+},
+{
+  "title":"Web technologies",
+  "info":["HTML5","javascript","css3"]
+},
+{
+  "title":"library and framework",
+  "info":["ionic","angular","expressjs",".net","Django"]
+},
+
+{
+  "title":"operating system",
+  "info":["dos","windows","linux"]
+}
+]
+
+}
